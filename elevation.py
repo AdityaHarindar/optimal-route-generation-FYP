@@ -1,9 +1,6 @@
-#MAKE SURE ALL REQUIRED CORE FILES ARE IN SAME DIRECTORY
 import pandas as pd
 import numpy as np
 from heapq import *
-
-#A-Star*******************************************************************
 
 class Elevation(object):
     def __init__(self, sLat, sLong, startpoint_eln, dLat, dLong, endpoint_eln):
